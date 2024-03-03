@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:black_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "  N",
+    " P ",
+    "D  "
+  ],
+  "result": {
+    "item": "minecraft:name_tag"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "yantr",
+	"version": "${version}",
+	"name": "YANTR",
+	"description": "Yet Another Name Tag Recipe. Craftable Nametags!",
+	"authors": [
+		"Blyrium"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/yet-another-nametag-recipe",
+		"sources": "https://github.com/Blyrium/yet-another-nametag-recipe-1.20.1"
+	},
+	"license": "MIT",
+	"icon": "assets/yantr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blyrium.yantr.YANTR"
+		],
+		"fabric-datagen": [
+			"net.blyrium.yantr.YANTRDataGenerator"
+		]
+	},
+	"mixins": [
+		"yantr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
